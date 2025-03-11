@@ -67,7 +67,7 @@ nav ul li a.active {
 .countries {
     text-align: center;
     padding: 2rem;
-    background: url('../flags/bgindex.png') no-repeat center center/cover;
+    background: url('flags/bgindex.png') no-repeat center center/cover;
     
     .bglayer{
         min-height: 55vh;

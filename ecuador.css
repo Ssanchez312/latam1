@@ -72,7 +72,7 @@ nav ul li a.active {
 
 /* Hero Section */
 .hero {
-    background: url('../images/ecuador/Cotopaxi-volcano.jpg') no-repeat center center/cover;
+    background: url('images/ecuador/Cotopaxi-volcano.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
    
