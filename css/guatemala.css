@@ -5,13 +5,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --white-bg: #f4f4f4;
+    --header-color: #2f2f6e;
+    --nav-bg: #6565eb;
+    --nav-hover: #505092;
+    --tourist-bg: #6565eb;
+
+
+}
 /* Global Styles */
 body {
     font-family: "DM Sans", sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: var(--white-bg);
 }
 img{
     max-width: 100%;
@@ -20,7 +29,7 @@ img{
 
 /* Header */
 header {
-    background-color: #005f73;
+    background-color: var(--header-color);
     color: white;
     text-align: center;
    
@@ -41,7 +50,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #0a9396;
+    background-color: var(--nav-bg);
 }
 
 nav ul li {
@@ -58,7 +67,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: #689e8c;
+    background-color: var(--nav-hover);
 }
 
 /* Hero Section */
@@ -116,7 +125,7 @@ nav ul li a.active {
 .tourist-spots {
     text-align: center;
     padding: 2rem;
-    background-color: #39adc4c7;
+    background-color: var(--tourist-bg);
 
 }
 
@@ -170,6 +179,6 @@ nav ul li a.active {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #005f73;
+    background-color: var(--header-color);
     color: white;
 }
